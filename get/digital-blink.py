@@ -1,4 +1,4 @@
-import RPI.GPIO as GPIO
+import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BCM)
@@ -14,3 +14,4 @@ while True:
     state = not state
     time.sleep(period)
 
+ 
